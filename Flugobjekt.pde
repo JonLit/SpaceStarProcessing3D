@@ -108,7 +108,7 @@ public class Raumschiff extends Flugobjekt {
     	posY = y;
 		fill(100);
 		noStroke();
-		symbol = loadShape("project-cirno-fumo-3d-scan/source/cirno_fumo/cirno_low.obj");//createShape(ELLIPSE, 0, 0, 50, 50);
+		symbol = loadShape("cirno_low.obj");//createShape(ELLIPSE, 0, 0, 50, 50);
     symbol.setTexture(cirnoTexture); //<>//
     symbol.rotateY(HALF_PI);
     symbol.rotateZ(HALF_PI * -1);
