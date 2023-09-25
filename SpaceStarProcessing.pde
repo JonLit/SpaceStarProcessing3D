@@ -49,7 +49,7 @@ void setup() {
   surface.setResizable(true);
   
   println("loading textures");
-  cirnoTexture = loadImage("project-cirno-fumo-3d-scan/textures/cirno_low_u1_v1.jpeg");
+  cirnoTexture = loadImage("cirno_low_u1_v1.jpeg");
   rockTexture = loadImage("rockTexture.png");
   println("finished loading textures: " + cirnoTexture);
   
